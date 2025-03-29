@@ -42,7 +42,7 @@ Correlation between specimens is assessed by methylation distribution profiles, 
 
 ### **3.3 Cross-taxa comparison**
 
-To illustrate evolutionary relationships and place the CoTS methylome in a broader context, a phylogenetic tree was constructed using the TimeTree of Life (TToL5). Genome-wide methylation levels were compared across a diverse range of taxa, including prebilaterians, protostomes, deuterostome invertebrates, and vertebrates.
+Construct phylogenetic tree to illustrate evolutionary relationships and place the CoTS methylome in a broader context.
 
 - **Script:** `cross_taxa.R`
 - **Package:** TToL5
