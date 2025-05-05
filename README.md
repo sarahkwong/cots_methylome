@@ -32,29 +32,36 @@ Methylation data is extracted from modbam files and converted into a bedMethyl f
 Extract, clean, and merge methylation data from bedMethyl files across all samples to prepare for downstream analysis.
 
 - **Script:** `load_data.R`
+
+### **3.2 Circos Plot**  
+
+Generate a Circos plot to visualize overall methylation patterns.
+
+- **Script:** `circos.md`
+- **Software:** Circos v0.69-9
   
-### **3.2 Correlation Analysis**  
+### **3.3 Correlation Analysis**  
 
 Correlation between specimens is assessed by methylation distribution profiles, pairwise Pearson’s correlation coefficients, and correlation plots.
 
 - **Script:** `correlation.R`
 - **Package:** methylKit v1.28.0
 
-### **3.3 Cross-taxa comparison**
+### **3.4 Cross-taxa comparison**
 
 Construct phylogenetic tree to illustrate evolutionary relationships and place the CoTS methylome in a broader context.
 
 - **Script:** `cross_taxa.R`
 - **Package:** TToL5
 
-### **3.4 Identification of methylation targets**  
+### **3.5 Identification of methylation targets**  
 
 Genomic regions are defined based on the NCBI RefSeq annotation of the CoTS genome to identify primary targets of methylation. This classification helps distinguish methylation patterns across exons, introns, promoters, and intergenic regions.
 
 - **Script:** `meth_target.R`
 - **Package:** GenomicRanges v1.54.1
 
-### **3.5 Gene body methylation profiling**  
+### **3.6 Gene body methylation profiling**  
 
 Methylation levels are analyzed across gene bodies and their 2 kbp flanking regions using the plotProfile function in deepTools2, providing a visual representation of methylation distribution and potential regulatory patterns.
 
