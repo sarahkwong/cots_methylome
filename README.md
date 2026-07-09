@@ -3,7 +3,7 @@
 This repository contains bioinformatic scripts for processing Oxford Nanopore sequencing data, covering basecalling and methylation analysis. The workflow is designed to generate a comprehensive methylome profile from raw sequencing reads.
 
 ### Citation 
-Kwong, S. L. T., Budd, M., Hung, J., Villacorta-Rath, C., & Uthicke, S. (manuscript under review) *Methylome profiling of a deuterostome invertebrate using Oxford Nanopore Technology (ONT).*  
+Kwong, S.L.T., Budd, A.M., Hung, J.Y.-H., Villacorta-Rath, C. and Uthicke, S. (2025), Methylome Profiling of a Deuterostome Invertebrate Using Oxford Nanopore Technology (ONT). Mol Ecol Resour, 25: e70026. https://doi.org/10.1111/1755-0998.70026
 
 ---
 
